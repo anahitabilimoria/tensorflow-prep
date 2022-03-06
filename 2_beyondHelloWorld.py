@@ -43,7 +43,7 @@ print(f'output of softmax function: {outputs.numpy()}')
 
 # Get the sum of all values after the softmax
 sum = tf.reduce_sum(outputs)
-print(f'sum of outputs: {sum}') 
+print(f'sum of outputs: {sum}')
 
 # Get the index with highest value
 prediction = np.argmax(outputs)

@@ -124,7 +124,7 @@ history = model.fit(
             train_generator,
             validation_data = validation_generator,
             steps_per_epoch = 100,
-            epochs = 20,
+            epochs = 10,
             validation_steps = 50,
             verbose = 2)
 
